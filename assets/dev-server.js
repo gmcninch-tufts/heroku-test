@@ -1,4 +1,6 @@
 // dev-server.js
+const PORT = process.env.PORT || 5001;
+
 require('esbuild-server')
   .createServer(
     {
@@ -6,7 +8,8 @@ require('esbuild-server')
       entryPoints: ['targets/intro-app.js' ],
     },
     {
-      static: 'www'
+      static: 'www',
+      port: PORT
     }
   )
   .start();
