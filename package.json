@@ -1,0 +1,27 @@
+{
+  "name": "liwg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-intro": "spago bundle-app --main IntroComponent --to targets/intro-app.js",
+    "build-todo": "spago bundle-app --main TodoComponent --to targets/todo-app.js",
+    "build": "npm run build-intro; npm run build-todo",
+    "start": "node assets/dev-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "purescript": "^0.15.4",
+    "spago": "^0.20.9"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.45",
+    "esbuild-server": "^0.1.0"
+  }
+}

@@ -1,0 +1,161 @@
+html {
+    font-family: Arimo, Lato, serif;
+    font-size: 12px;
+    background-color: antiquewhite;    
+}
+
+body {
+    font-size: 1.4rem;
+    color: #000;
+    /* background-color: #CCE6FF; */
+    background-color: antiquewhite;
+    padding: 0 0 0 10;
+}
+
+header {
+    border-bottom: 0.2rem solid #000;
+}
+
+button {
+    padding: 0 0 0 0;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1.2rem 0;
+    border-top: 0.2rem solid #000;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+article .header {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #555;
+}
+
+.logo a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+@media (min-width: 640px) {
+    body {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+    }
+    header {
+	margin: 0 0 3rem;
+	padding: 1.2rem 0;
+    }
+    nav {
+	margin: 0;
+	text-align: right;
+    }
+    nav a {
+	margin: 0 0 0 1.2rem;
+	display: inline;
+    }
+    footer {
+	text-align: right;
+    }
+}
+
+
+
+/*--------------------------------------------------------------------------------*/
+/* table {margin: .5rem auto 1.5rem auto; */
+/*        width: 98%;} */
+/*         /\* Thead *\/ */
+/* thead th {padding: 0rem .2rem; */
+/* 	  text-align: left; */
+/* 	  border-bottom: 2px solid black; */
+/* 	  font-size: 1.6rem; */
+/* 	  font-style: normal; */
+/* 	  font-weight: bold} */
+/* thead td {} */
+/* /\* Tbody *\/ */
+/* tbody td {padding: 0rem .4rem;} */
+/* tbody th {} */
+
+/* tbody .alt td {} */
+/* tbody .alt th {} */
+/* /\* Tfoot *\/ */
+/* tfoot th {} */
+/* tfoot td {} */
+
+
+footer nav {
+    text-align: center;
+}
+
+#albums table { width: 500px;
+		display: block;
+		table-layout: fixed;
+		border-collapse: collapse;
+	      }
+
+
+#albums tr { color: navy;}
+
+/* #albums td {border-bottom: 0.1rem solid #000;} */
+
+
+td.artistCol { width: 20%}
+td.titleCol {width: 20%}
+td.acquireDateCol {width: 10%}
+td.tagsCol {width: 30%}
+
+div.albums  {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.albums table  { border-collapse: collapse;
+		 margin-bottom: 15px;
+	       }
+
+.albums th  { font-weight: normal;
+	      text-align: left;
+	      font-size: 1.6rem;
+	      border-bottom: 2px solid black; }
+
+.albums td { border-bottom: 1px solid black; }
+
+
+.albums button { padding: 0px 0px;
+		 width : 50px;}
+
+
+
+#searchFields td {padding: 2px 2px;
+		  margin: 0px 0px;}
+#searchFields table {width: 200px;
+		     border-spacing: 5px;
+		    }
