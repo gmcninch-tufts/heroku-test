@@ -9,9 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-intro": "spago bundle-app --main IntroComponent --to targets/intro-app.js",
-    "build-todo": "spago bundle-app --main TodoComponent --to targets/todo-app.js",
-    "build": "npm run build-intro; npm run build-todo",
-    "start": "node assets/dev-server.js"
+    "build": "npm run build-intro",
+    "main": "node assets/dev-server.js"
   },
   "author": "",
   "license": "ISC",
